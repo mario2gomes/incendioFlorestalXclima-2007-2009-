@@ -9,7 +9,7 @@ plt.style.use('seaborn-white')
 
 
 
-df = pd.read_excel('../tabelas/dados2009.xlsx', sheetname=0)
+df = pd.read_excel('../tabelas/dados2007-9.xlsx', sheetname=0)
 print(df)
 print("\nMédia\n")
 print(df.mean())

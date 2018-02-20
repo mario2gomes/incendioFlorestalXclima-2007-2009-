@@ -10,8 +10,8 @@ from scipy import stats
 import matplotlib.pyplot as plt
 
 caminho = '../tabelas/'
-atributos = (('DADOS2009 - vento.xlsx','vento'),('DADOS2009 - temperatura.xlsx','temperatura'),
-             ('DADOS2009 - humidade.xlsx','humidade'),('DADOS2009 - chuva.xlsx','chuva'))
+atributos = (('DADOS2007-9 - vento.xlsx','vento'),('DADOS2007-9 - temperatura.xlsx','temperatura'),
+             ('DADOS2007-9 - humidade.xlsx','humidade'),('DADOS2007-9 - chuva.xlsx','chuva'))
 
 for (a,b) in atributos:
 
